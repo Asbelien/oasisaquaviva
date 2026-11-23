@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oasis Aquaviva | Planta purificadora de agua en Villa El Salvador</title>
+  <meta name="description" content="Planta de agua purificada en el sector Oasis, Villa El Salvador. Bidón de 20 litros con venta directa y reparto a domicilio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="header__brand" aria-label="Oasis Aquaviva, ir al inicio">
+        <img src="img/image-Photoroom.png" alt="Oasis Aquaviva" class="header__logo">
+      </a>
+      <button class="header__toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="menu" id="menu">
+        <a href="#inicio" class="menu__link">Inicio</a>
+        <a href="#nosotros" class="menu__link">Nosotros</a>
+        <a href="#productos" class="menu__link">Productos</a>
+        <a href="#calidad" class="menu__link">Calidad</a>
+        <a href="#servicios" class="menu__link">Servicios</a>
+        <a href="#contacto" class="menu__link menu__link--cta">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="hero__tag">Planta purificadora de agua · Villa El Salvador</p>
+          <h1 class="hero__title">Hidrata tu día con la mejor pureza</h1>
+          <p class="hero__lead">En Oasis Aquaviva purificamos y entregamos agua en bidones de 20 litros para los hogares y pequeños negocios de nuestra zona.</p>
+          <div class="hero__actions">
+            <a href="https://wa.me/51900000000?text=Hola%2C%20quiero%20pedir%20un%20bid%C3%B3n%20de%20agua" class="btn btn--primary" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+            <a href="#productos" class="btn btn--ghost">Ver producto</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <img src="img/image-Photoroom.png" alt="Logo de Oasis Aquaviva" class="hero__logo">
+        </div>
+      </div>
+      <svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,64 C240,120 480,0 720,48 C960,96 1200,16 1440,64 L1440,120 L0,120 Z"></path>
+      </svg>
+    </section>
+
+    <section class="section" id="nosotros">
+      <div class="container">
+        <h2 class="section__title">Nosotros</h2>
+        <p class="section__intro">Somos una planta de agua purificada pensada para el sector Oasis, en Villa El Salvador. Llevamos agua segura a las familias y a los negocios que la necesitan cada día.</p>
+        <div class="grid grid--3">
+          <article class="card">
+            <h3 class="card__title">Quiénes somos</h3>
+            <p>Un equipo de cinco jóvenes emprendedores que impulsa una planta local de purificación y distribución de agua, cerca de quienes la consumen.</p>
+          </article>
+          <article class="card">
+            <h3 class="card__title">Misión</h3>
+            <p>Abastecer a hogares y pequeños negocios con agua purificada de calidad, a un precio accesible y con un servicio de entrega confiable.</p>
+          </article>
+          <article class="card">
+            <h3 class="card__title">Visión</h3>
+            <p>Ser la planta de agua purificada de referencia en Villa El Salvador, reconocida por su calidad, su higiene y la confianza de sus clientes.</p>
+          </article>
+        </div>
+        <div class="location">
+          <div class="location__info">
+            <h3 class="card__title">Ubicación</h3>
+            <p>Sector Oasis, Villa El Salvador, Lima, Perú.</p>
+            <p class="location__note">Atendemos las zonas cercanas a la planta con reparto a domicilio.</p>
+          </div>
+          <div class="location__map">
+            <iframe title="Mapa del sector Oasis, Villa El Salvador" src="https://www.google.com/maps?q=Sector+Oasis+Villa+El+Salvador+Lima&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="productos">
+      <div class="container">
+        <h2 class="section__title">Productos</h2>
+        <div class="product">
+          <div class="product__media">
+            <svg viewBox="0 0 200 290" class="product__bottle" role="img" aria-label="Bidón Oasis Aquaviva de 20 litros">
+              <defs>
+                <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#4fd6e8"/>
+                  <stop offset="1" stop-color="#1e9be8"/>
+                </linearGradient>
+              </defs>
+              <rect x="78" y="6" width="44" height="22" rx="6" fill="#1b4fa0"/>
+              <path d="M82 28 H118 V52 C118 62 160 70 164 96 V252 C164 270 152 282 134 282 H66 C48 282 36 270 36 252 V96 C40 70 82 62 82 52 Z" fill="url(#water)" opacity="0.92"/>
+              <rect x="42" y="118" width="116" height="84" rx="10" fill="#fff"/>
+              <image href="img/emblema.jpg" x="46" y="122" width="108" height="72" preserveAspectRatio="xMidYMid meet"/>
+              <text x="100" y="236" text-anchor="middle" font-family="Sora, sans-serif" font-weight="800" font-size="30" fill="#fff">20 L</text>
+            </svg>
+          </div>
+          <div class="product__body">
+            <h3 class="product__name">Bidón de agua purificada de 20 litros</h3>
+            <p>Agua tratada, lista para beber y cocinar, envasada en bidones limpios y sellados. Ideal para el consumo diario de una familia o para la atención en bodegas, puestos de comida y pequeños comercios.</p>
+            <ul class="checklist">
+              <li>Agua purificada y envasada en la planta</li>
+              <li>Bidón sellado con tapa de seguridad</li>
+              <li>Rendimiento para varios días en el hogar</li>
+              <li>Recarga y reposición de bidones vacíos</li>
+            </ul>
+            <p class="product__price">Precio por bidón: <strong>S/ 8.00</strong></p>
+            <a href="https://wa.me/51900000000?text=Hola%2C%20quiero%20pedir%20un%20bid%C3%B3n%20de%20agua" class="btn btn--primary" target="_blank" rel="noopener">Pedir mi bidón</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="calidad">
+      <div class="container">
+        <h2 class="section__title">Calidad</h2>
+        <p class="section__intro">Nuestra agua pasa por un proceso de purificación en etapas y por controles constantes antes de llegar a tu bidón.</p>
+        <h3 class="subtitle">Proceso de purificación</h3>
+        <ol class="steps">
+          <li class="step">
+            <h4 class="step__title">Filtro de sedimentos</h4>
+            <p>Retiene arena, óxido y partículas visibles del agua de entrada.</p>
+          </li>
+          <li class="step">
+            <h4 class="step__title">Carbón activado</h4>
+            <p>Reduce el cloro, los olores y los sabores desagradables.</p>
+          </li>
+          <li class="step">
+            <h4 class="step__title">Ablandador</h4>
+            <p>Disminuye la dureza del agua y protege las membranas del equipo.</p>
+          </li>
+          <li class="step">
+            <h4 class="step__title">Ósmosis inversa</h4>
+            <p>Separa sales disueltas y otras impurezas con una membrana de alta precisión.</p>
+          </li>
+          <li class="step">
+            <h4 class="step__title">Luz ultravioleta y ozono</h4>
+            <p>Desinfectan el agua y el envase antes del llenado.</p>
+          </li>
+          <li class="step">
+            <h4 class="step__title">Envasado sellado</h4>
+            <p>Llenado en bidones lavados y sellados para conservar la pureza.</p>
+          </li>
+        </ol>
+        <div class="grid grid--2 controls">
+          <article class="card">
+            <h3 class="card__title">Controles de calidad</h3>
+            <ul class="checklist">
+              <li>Medición periódica de pH y sólidos disueltos (TDS)</li>
+              <li>Revisión del estado de filtros y membranas</li>
+              <li>Control de turbidez, olor y sabor en cada lote</li>
+              <li>Registro de las revisiones realizadas</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3 class="card__title">Tratamiento e higiene</h3>
+            <ul class="checklist">
+              <li>Lavado y desinfección de cada bidón antes del llenado</li>
+              <li>Limpieza programada de tuberías y tanques</li>
+              <li>Personal con uso de ropa y utensilios higiénicos</li>
+              <li>Almacenamiento en un área limpia y cubierta</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="servicios">
+      <div class="container">
+        <h2 class="section__title">Servicios</h2>
+        <div class="grid grid--2">
+          <article class="card card--service">
+            <h3 class="card__title">Venta directa</h3>
+            <p>Acércate a la planta y recarga tu bidón al momento. Sin intermediarios y con atención personal.</p>
+            <ul class="checklist">
+              <li>Atención en horario de planta</li>
+              <li>Recarga rápida de bidones</li>
+              <li>Precios para hogares y negocios</li>
+            </ul>
+          </article>
+          <article class="card card--service">
+            <h3 class="card__title">Reparto a domicilio</h3>
+            <p>Pide por WhatsApp o por teléfono y llevamos el bidón hasta tu puerta, en el sector Oasis y zonas cercanas.</p>
+            <ul class="checklist">
+              <li>Pedidos por WhatsApp o llamada</li>
+              <li>Entrega en el día según disponibilidad</li>
+              <li>Reposición frecuente para bodegas y puestos de comida</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contacto">
+      <div class="container">
+        <h2 class="section__title">Contacto</h2>
+        <p class="section__intro">Escríbenos o llámanos para hacer tu pedido o resolver tus dudas.</p>
+        <div class="grid grid--4">
+          <a class="contact" href="https://wa.me/51900000000" target="_blank" rel="noopener">
+            <span class="contact__label">WhatsApp</span>
+            <span class="contact__value">+51 900 000 000</span>
+          </a>
+          <a class="contact" href="tel:+51900000000">
+            <span class="contact__label">Teléfono</span>
+            <span class="contact__value">+51 900 000 000</span>
+          </a>
+          <div class="contact">
+            <span class="contact__label">Dirección</span>
+            <span class="contact__value">Sector Oasis, Villa El Salvador, Lima</span>
+          </div>
+          <div class="contact">
+            <span class="contact__label">Redes sociales</span>
+            <span class="contact__value contact__social">
+              <a href="#" target="_blank" rel="noopener">Facebook</a>
+              <a href="#" target="_blank" rel="noopener">Instagram</a>
+              <a href="#" target="_blank" rel="noopener">TikTok</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>El origen de una vida pura.</p>
+      <p class="footer__legal">Proyecto académico · Gestión Comercial en la Industria · Tecsup Santa Anita · 2026-II</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
